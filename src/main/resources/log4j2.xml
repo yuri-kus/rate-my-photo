@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="ConsoleAppender" target="SYSTEM_OUT" ignoreExceptions="false">
+            <PatternLayout pattern="%d [%t] %-5p %c %x - %m%n"/>
+        </Console>
+
+    </Appenders>
+    <Loggers>
+        <!--<Logger name="org.eclipse.jetty" level="info"/>-->
+        <!--<Logger name="org.apache.commons" level="warn"/>-->
+        <Root level="debug">
+            <AppenderRef ref="ConsoleAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>

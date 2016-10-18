@@ -1,0 +1,45 @@
+html, body {
+    /*color: #FFFFFF;*/
+    /*background: #B4656A;*/
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+#main {
+    margin: 0 25%;
+    width: 75%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+#left {
+    float: left;
+    width: 25%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+#file-tree {
+    padding: 30px;
+}
+
+#photos {
+    padding: 30px;
+}
+
+.photo-gallery {
+    float: left;
+    height: auto;
+    width: 100%;
+}
+
+.photo-gallery a {
+    display: block;
+    float: left;
+    line-height: 0;
+    margin: 0 12px 12px 0;
+    width: 171px;
+}
+
+

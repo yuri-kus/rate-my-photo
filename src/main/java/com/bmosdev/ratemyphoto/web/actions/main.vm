@@ -1,0 +1,25 @@
+<div id="left">
+    <div id="file-tree">
+    </div>
+</div>
+
+<div id="main">
+    <div id="photos">
+        <div class="section section--head">
+            <div class="row">
+                <div id="photo-gallery-container">
+                    <div class="photo-gallery">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+#parse("com/bmosdev/ratemyphoto/web/actions/photoSwipeGallery.vm")
+
+<script type="text/javascript">
+    $(function(){
+        RateMyPhoto.initPhotoBrowser()
+    });
+</script>

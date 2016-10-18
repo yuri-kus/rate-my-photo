@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>RateMyPhoto</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Style-Type" content="text/css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+    <!-- Core CSS file -->
+    <link rel="stylesheet" href="libs/photo-swipe/photoswipe.css">
+
+    <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+         In the folder of skin CSS file there are also:
+         - .png and .svg icons sprite,
+         - preloader.gif (for browsers that do not support CSS animations) -->
+    <link rel="stylesheet" href="libs/photo-swipe/default-skin/default-skin.css">
+
+    <!-- Include jQuery and jQuery UI -->
+    <script src="libs/jquery/jquery-1.12.1.min.js" type="text/javascript"></script>
+    <script src="libs/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+    <!-- Include Fancytree skin and library -->
+##    <link href="libs/fancytree/skin-lion/ui.fancytree.min.css" rel="stylesheet" type="text/css">
+    <link href="libs/fancytree/skin-lion/ui.fancytree.min.css" rel="stylesheet" type="text/css">
+    <script src="libs/fancytree/jquery.fancytree-all.min.js" type="text/javascript"></script>
+
+    <!-- Core JS file -->
+    <script src="libs/photo-swipe/photoswipe.js"></script>
+
+    <!-- UI JS file -->
+    <script src="libs/photo-swipe/photoswipe-ui-default.js"></script>
+
+    <script src="js/photoSwipeHelper.js"></script>
+    <script src="js/rateMyPhoto.js"></script>
+
+</head>
+
+<body>
+
+   <div id="content">
+        #parse($content)
+    </div>
+
+</body>
+
+</html>
